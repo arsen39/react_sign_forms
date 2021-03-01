@@ -1,5 +1,7 @@
+@import '../../common/CommoStyles.module.scss';
+
 .form{
-  height:90%;
+  height:40%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -7,17 +9,3 @@
   justify-content: center;
 }
 
-.btn{
-  width: 25%;
-  background-color: #28d2d0;
-  text-transform: uppercase;
-  border: solid transparent 2px;
-  border-radius: 5px;
-  color: white;
-  font-size: 1rem;
-  font-weight:bold;
-  text-transform: uppercase;
-  padding: 15px 100px;
-  cursor: pointer;
-  margin-top: 20px;
-}

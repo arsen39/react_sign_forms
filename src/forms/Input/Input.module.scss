@@ -1,3 +1,9 @@
+@import '../../common/CommoStyles.module.scss';
+
+.inputWrapper{
+  flex-basis: 48%;
+}
+
 .errMsg{
   position: absolute;
   background-color: rgba(228, 23, 23, 0.753);
@@ -7,18 +13,18 @@
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  width: 435px;
 }
 
 .input{
-  width: 435px;
+  width: 80%;
   background-color: white;
   color: gray;
   font-size:1rem;
   padding: 15px 20px;
   border: 3px solid transparent;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .validInput {

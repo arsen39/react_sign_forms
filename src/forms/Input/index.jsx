@@ -13,11 +13,9 @@ const CustomErrMsg = (msg) => {
 
 const Input = ({ name, ...rest }) => {
   return (
-    <label className="inputWrapper">
+    <label className={styles.inputWrapper}>
       <Field name={name}>
         {({ field, form, meta }) => {
-          console.log(meta);
-
           const classNames = cx(styles.input, {
             [styles.validInput]: meta.touched && !meta.error,
             [styles.errorInput]: meta.touched && meta.error,
