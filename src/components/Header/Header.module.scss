@@ -1,0 +1,22 @@
+.headerWrapper{
+  height:5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 300px
+}
+
+.headerLogo{
+  object-fit: cover;
+  height: 100%
+}
+
+.headerBtn{
+  background-color: transparent;
+  color: white;
+  border: solid white 2px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
