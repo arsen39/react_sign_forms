@@ -28,23 +28,25 @@ const SignUpForm = () => {
         return (
           <Form className={styles.form}>
             <div className={styles.evenInputs}>
-              <Input name='name' type='text' placeholder='First Name' />
-              <Input name='surname' type='text' placeholder='Second Name' />
+              <Input name='name' type='text' placeholder='First Name' className={styles.input}/>
+              <Input name='surname' type='text' placeholder='Second Name' className={styles.input}/>
             </div>
             <div className={styles.evenInputs}>
               <Input
                 name='displayName'
                 type='text'
                 placeholder='Display Name'
+                className={styles.input}
               />
-              <Input name='email' type='email' placeholder='Email' />
+              <Input name='email' type='email' placeholder='Email' className={styles.input}/>
             </div>
             <div className={styles.evenInputs}>
-              <Input name='password' type='password' placeholder='Password' />
+              <Input name='password' type='password' placeholder='Password' className={styles.input}/>
               <Input
                 name='passwordConfirm'
                 type='password'
                 placeholder='Password Confirmation'
+                className={styles.input}
               />
             </div>
 

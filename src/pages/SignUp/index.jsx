@@ -9,7 +9,12 @@ const SignUp = () => {
   return (
     <>
       <Header />
-      <SignUpForm/>
+      <div className={styles.pageBody}>
+        <h1 className={styles.formHead}>CREATE AN ACCOUNT</h1>
+        <p className={styles.formHeadText}>We always keep your name and email address private.</p>
+        <SignUpForm/>
+      </div>
+      
     </>
   );
 };

@@ -22,8 +22,8 @@ const SignInForm = () => {
       {(formikProps) => {
         return (
           <Form className={styles.form}>
-            <Input name='email' placeholder='Email' />
-            <Input name='password' type='password' placeholder='Password' />
+            <Input name='email' placeholder='Email' className={styles.input}/>
+            <Input name='password' type='password' placeholder='Password' className={styles.input} />
             <Field type="submit" name="submit" className={styles.btn} />
           </Form>
         );
